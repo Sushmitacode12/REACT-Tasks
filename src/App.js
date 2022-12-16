@@ -1,5 +1,5 @@
-import './componenpmts/ExpeseItam'
-import ExpenseItem from './componenpmts/ExpeseItam';
+
+import ExpenseItem from './components/ExpenseItem';
 import './App.css';
 
 function App() {
