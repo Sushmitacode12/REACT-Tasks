@@ -36,9 +36,14 @@ const App = (props) => {
     },
   ];
 
+  const addExpensehandler = expense => {
+    console.log('In App.js');
+    console.log(expenses);
+  };
+
    return (
    <div className="expenses">
-    <NewExpense />
+    <NewExpense onAddExpense={addExpensehandler}/>
    <ExpenseItem
      id={expenses[0].id}
      title={expenses[0].title}
